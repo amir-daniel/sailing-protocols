@@ -33,6 +33,7 @@ Each file marks its intended style near the top.
 | [Maintenance](09-maintenance/daily-checks.md) | Periodic and seasonal checks |
 | [Radio protocols](10-radio-protocols/mayday-distress.md) | Mayday, PAN-PAN, Sécurité, DSC, radio checks |
 | [COLREGs quick-reference](11-colregs-quick-reference/right-of-way-steering-rules.md) | Lights, shapes, sound signals, right of way |
+| [Supplementary & seldom-used](12-supplementary/crew-overboard-prevention.md) | Prevention, rare events, tender, provisioning, handover |
 
 ## Master checklist index
 
@@ -59,8 +60,11 @@ Each file marks its intended style near the top.
 - [x] [Tacking](03-maneuvers/tacking.md)
 - [x] [Gybing](03-maneuvers/gybing.md)
 - [x] [Heaving-to](03-maneuvers/heaving-to.md)
+- [x] [Slowing, stopping & ferry gliding](03-maneuvers/slowing-stopping.md)
 - [x] [Anchoring](03-maneuvers/anchoring.md)
+- [x] [Weighing (raising) anchor](03-maneuvers/weighing-anchor.md)
 - [x] [Picking up a mooring](03-maneuvers/picking-up-mooring.md)
+- [x] [Towing & being towed](03-maneuvers/towing-and-being-towed.md)
 
 ### 04 — Docking & berthing
 - [x] [Departure from berth](04-docking-berthing/departure-from-berth.md)
@@ -76,6 +80,7 @@ Each file marks its intended style near the top.
 - [x] [Steering failure](05-emergencies/steering-failure.md)
 - [x] [Engine failure](05-emergencies/engine-failure.md)
 - [x] [Medical emergency](05-emergencies/medical-emergency.md)
+- [x] [Gas leak (LPG)](05-emergencies/gas-leak.md)
 - [x] [Abandon ship](05-emergencies/abandon-ship.md)
 - [x] [Grounding](05-emergencies/grounding.md)
 
@@ -86,6 +91,7 @@ Each file marks its intended style near the top.
 ### 07 — Navigation & watch
 - [x] [Watch handover](07-navigation-watch/watch-handover.md)
 - [x] [Night sailing prep](07-navigation-watch/night-sailing-prep.md)
+- [x] [Landfall & arrival pilotage](07-navigation-watch/landfall-arrival-pilotage.md)
 - [x] [Fog / restricted visibility](07-navigation-watch/fog-restricted-visibility.md)
 - [x] [Log keeping](07-navigation-watch/log-keeping.md)
 
@@ -94,6 +100,7 @@ Each file marks its intended style near the top.
 - [x] [Engine shutdown](08-systems-engine/engine-shutdown.md)
 - [x] [Electrical / battery management](08-systems-engine/electrical-battery-management.md)
 - [x] [Through-hull / seacock check](08-systems-engine/through-hull-seacock-check.md)
+- [x] [Heads (toilet) operation & blockage](08-systems-engine/heads-operation-blockage.md)
 
 ### 09 — Maintenance
 - [x] [Daily checks](09-maintenance/daily-checks.md)
@@ -113,6 +120,20 @@ Each file marks its intended style near the top.
 - [x] [Navigation lights](11-colregs-quick-reference/navigation-lights.md)
 - [x] [Day shapes](11-colregs-quick-reference/day-shapes.md)
 - [x] [Sound signals](11-colregs-quick-reference/sound-signals.md)
+
+### 12 — Supplementary & seldom-used
+- [x] [Sea-sickness management](12-supplementary/sea-sickness-management.md)
+- [x] [Crew-overboard prevention](12-supplementary/crew-overboard-prevention.md)
+- [x] [Collision-avoidance decision](12-supplementary/collision-avoidance-decision.md)
+- [x] [Collision (aftermath)](12-supplementary/collision-aftermath.md)
+- [x] [Lightning / electrical storm](12-supplementary/lightning-electrical-storm.md)
+- [x] [Cold water & hypothermia](12-supplementary/cold-water-hypothermia.md)
+- [x] [Gas system check](12-supplementary/gas-system-check.md)
+- [x] [Bilge & pump test](12-supplementary/bilge-pump-test.md)
+- [x] [Winch safety & riding turn](12-supplementary/winch-safety-riding-turn.md)
+- [x] [Dinghy / tender operation](12-supplementary/dinghy-tender-operation.md)
+- [x] [Provisioning & stowage](12-supplementary/provisioning-stowage.md)
+- [x] [Guest / charter handover](12-supplementary/guest-charter-handover.md)
 
 ## Contributing convention
 
