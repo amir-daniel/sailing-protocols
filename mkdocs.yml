@@ -1,0 +1,141 @@
+site_name: SProtocols — Sailing Checklists
+site_description: A structured library of sailing checklists and protocols.
+site_author: amir-daniel
+site_url: https://amir-daniel.github.io/SProtocols/
+repo_url: https://github.com/amir-daniel/SProtocols
+repo_name: amir-daniel/SProtocols
+
+# Keep the Markdown files exactly where they are (repo root) and use README.md
+# as the home page. Provided by the mkdocs-same-dir plugin.
+docs_dir: .
+
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tracking
+    - navigation.top           # back-to-top button
+    - navigation.sections
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - same-dir          # lets docs_dir be the repo root, README.md as index
+  - offline           # builds a fully offline-capable site (PWA-like)
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true          # nice rendered checkboxes
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/amir-daniel/SProtocols
+
+# Clean section names mapped from the numbered folders.
+nav:
+  - Home: README.md
+  - "🚨 Emergency (start here)": EMERGENCY.md
+  - Boat profile:
+      - Boat profile: 00-boat-profile/boat-profile.md
+  - Pre-departure:
+      - Passage planning: 01-pre-departure/passage-planning.md
+      - Boat & safety check: 01-pre-departure/boat-safety-check.md
+      - Crew briefing: 01-pre-departure/crew-briefing.md
+      - Fuel & water check: 01-pre-departure/fuel-water-check.md
+      - Weather & tide review: 01-pre-departure/weather-tide-review.md
+  - Sail handling:
+      - Hoisting the mainsail: 02-sail-handling/hoisting-mainsail.md
+      - Reefing the mainsail: 02-sail-handling/reefing-mainsail.md
+      - Shaking out a reef: 02-sail-handling/shaking-out-reef.md
+      - Dropping & flaking the mainsail: 02-sail-handling/dropping-flaking-mainsail.md
+      - Headsail hoist / furl: 02-sail-handling/headsail-furl.md
+      - Headsail change: 02-sail-handling/headsail-change.md
+      - Spinnaker set & douse: 02-sail-handling/spinnaker-set-douse.md
+  - Maneuvers:
+      - Tacking: 03-maneuvers/tacking.md
+      - Gybing: 03-maneuvers/gybing.md
+      - Heaving-to: 03-maneuvers/heaving-to.md
+      - Anchoring: 03-maneuvers/anchoring.md
+      - Picking up a mooring: 03-maneuvers/picking-up-mooring.md
+  - Docking & berthing:
+      - Departure from berth: 04-docking-berthing/departure-from-berth.md
+      - Coming alongside: 04-docking-berthing/coming-alongside.md
+      - Spring-line maneuvers: 04-docking-berthing/spring-line-maneuvers.md
+      - Med mooring: 04-docking-berthing/med-mooring.md
+  - Emergencies:
+      - Man overboard (MOB): 05-emergencies/man-overboard.md
+      - Fire: 05-emergencies/fire.md
+      - Flooding / hull breach: 05-emergencies/flooding.md
+      - Dismasting: 05-emergencies/dismasting.md
+      - Steering failure: 05-emergencies/steering-failure.md
+      - Engine failure: 05-emergencies/engine-failure.md
+      - Medical emergency: 05-emergencies/medical-emergency.md
+      - Abandon ship: 05-emergencies/abandon-ship.md
+      - Grounding: 05-emergencies/grounding.md
+  - Heavy weather:
+      - Heavy-weather preparation: 06-heavy-weather/heavy-weather-preparation.md
+      - Storm tactics: 06-heavy-weather/storm-tactics.md
+  - Navigation & watch:
+      - Watch handover: 07-navigation-watch/watch-handover.md
+      - Night sailing prep: 07-navigation-watch/night-sailing-prep.md
+      - Fog / restricted visibility: 07-navigation-watch/fog-restricted-visibility.md
+      - Log keeping: 07-navigation-watch/log-keeping.md
+  - Systems & engine:
+      - Engine pre-start & start: 08-systems-engine/engine-pre-start-start.md
+      - Engine shutdown: 08-systems-engine/engine-shutdown.md
+      - Electrical / battery management: 08-systems-engine/electrical-battery-management.md
+      - Through-hull / seacock check: 08-systems-engine/through-hull-seacock-check.md
+  - Maintenance:
+      - Daily checks: 09-maintenance/daily-checks.md
+      - Weekly checks: 09-maintenance/weekly-checks.md
+      - Seasonal — lay-up & recommission: 09-maintenance/seasonal-layup-recommission.md
+  - Radio protocols:
+      - Mayday (distress): 10-radio-protocols/mayday-distress.md
+      - PAN-PAN (urgency): 10-radio-protocols/pan-pan-urgency.md
+      - Sécurité (safety): 10-radio-protocols/securite-safety.md
+      - Routine call & radio check: 10-radio-protocols/routine-call-radio-check.md
+      - DSC — digital selective calling: 10-radio-protocols/dsc-digital-selective-calling.md
+      - Phonetic alphabet & numbers: 10-radio-protocols/phonetic-alphabet.md
+  - COLREGs quick-reference:
+      - Right of way & steering rules: 11-colregs-quick-reference/right-of-way-steering-rules.md
+      - Navigation lights: 11-colregs-quick-reference/navigation-lights.md
+      - Day shapes: 11-colregs-quick-reference/day-shapes.md
+      - Sound signals: 11-colregs-quick-reference/sound-signals.md
+  - Template: TEMPLATE.md
