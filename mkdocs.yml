@@ -41,9 +41,24 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+extra_javascript:
+  - assets/js/rtl.js
+
 plugins:
   - search
   - same-dir          # lets docs_dir be the repo root, README.md as index
+  - i18n:
+      docs_structure: suffix       # e.g. man-overboard.md + man-overboard.he.md
+      fallback_to_default: true    # show English when a page isn't translated yet
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: he
+          name: עברית
+          build: true
+          site_name: Sailing Protocols — פרוטוקולים לשיט
   - offline           # builds a fully offline-capable site (PWA-like)
 
 markdown_extensions:

@@ -27,11 +27,33 @@ itself automatically. To add a page, create the `.md` file and add it to the
 ## Preview locally
 
 ```powershell
-pip install mkdocs-material mkdocs-same-dir
+pip install mkdocs-material mkdocs-same-dir mkdocs-static-i18n
 mkdocs serve
 ```
 
 Then open http://127.0.0.1:8000/.
+
+## Translations (Hebrew, etc.)
+
+The site is multilingual via `mkdocs-static-i18n`. Translated pages sit next to
+the English source with a locale suffix, e.g.:
+
+- `05-emergencies/man-overboard.md` (English, default)
+- `05-emergencies/man-overboard.he.md` (Hebrew)
+
+Untranslated pages automatically fall back to English, so translation can be done
+page by page. A language switcher appears in the top bar. Hebrew pages render
+right-to-left (via `assets/js/rtl.js`).
+
+**Translation rules for safety content:**
+
+- **VHF / radio scripts stay in English** (Mayday, PAN-PAN, prowords) — English is
+  the international standard on the radio.
+- Keep terms like `DSC`, `EPIRB`, `PLB`, `VHF Ch 16`, `MOB`, `Mayday` in English.
+- Translate a technical term only when a good, unambiguous equivalent exists
+  (e.g. halyard → מעלן); otherwise leave the English term.
+- Each machine-drafted page carries a "pending human review" note until a fluent
+  sailor checks it. **Do not rely on an unreviewed safety translation.**
 
 ## QR codes
 
