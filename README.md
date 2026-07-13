@@ -120,43 +120,17 @@ Each file marks its intended style near the top.
 - Use the shared template in [TEMPLATE.md](TEMPLATE.md).
 - Keep items imperative and scannable. Bold the killer items.
 
-## Published website (mobile-friendly, offline-capable)
+## Get it on your phone
 
-This repo publishes automatically to a searchable, phone-friendly site:
+Open the site anywhere — it works offline once loaded, has instant search,
+and light/dark mode:
 
 **https://amir-daniel.github.io/sailing-protocols/**
 
 Scan to open it on your phone:
 
-![Scan for the site](assets/qr/site-home.png)
+![Scan to open the site on your phone](assets/qr/site-home.png)
 
-- Built with **MkDocs + Material** from these Markdown files (no reformatting).
-- Instant search, light/dark mode, tappable checkboxes, offline support.
-- Deploys automatically via GitHub Actions on every push to `main`.
-
-### One-time GitHub setup
-1. Push this repo to `https://github.com/amir-daniel/sailing-protocols`.
-2. In the repo: **Settings → Pages → Build and deployment → Source = "GitHub Actions"**.
-3. Push to `main` — the workflow (`.github/workflows/deploy.yml`)
-   builds and publishes the site.
-
-### Edit workflow
-Just edit any `.md` file and push. The site rebuilds and republishes itself.
-
-### Preview locally (optional)
-```powershell
-pip install mkdocs-material mkdocs-same-dir
-mkdocs serve
-```
-
-### QR codes
-Print-ready QR codes that open the site live in the `assets/qr/` folder:
-- `site-home.*` → the home page (crew onboarding at the dock)
-- `emergency.*` → the [🚨 Emergency](EMERGENCY.md) quick-access page (mount near the nav station)
-
-Regenerate them any time with:
-```powershell
-pip install "qrcode[pil]"
-python assets/generate_qr.py
-```
+> Maintaining this site (build, deploy, regenerating QR codes) is documented in
+> [MAINTAINING.md](MAINTAINING.md).
 
