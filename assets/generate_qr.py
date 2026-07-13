@@ -16,8 +16,12 @@ import qrcode.image.svg
 BASE_URL = "https://amir-daniel.github.io/sailing-protocols/"
 
 TARGETS = {
+    # English (default)
     "site-home": BASE_URL,
     "emergency": BASE_URL + "EMERGENCY/",
+    # Hebrew (/he/)
+    "site-home.he": BASE_URL + "he/",
+    "emergency.he": BASE_URL + "he/EMERGENCY/",
 }
 
 OUT_DIR = Path(__file__).parent / "qr"
