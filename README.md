@@ -124,14 +124,14 @@ Each file marks its intended style near the top.
 
 This repo publishes automatically to a searchable, phone-friendly site:
 
-**https://amir-daniel.github.io/SProtocols/**
+**https://amir-daniel.github.io/sailing-protocols/**
 
 - Built with **MkDocs + Material** from these Markdown files (no reformatting).
 - Instant search, light/dark mode, tappable checkboxes, offline support.
 - Deploys automatically via GitHub Actions on every push to `main`.
 
 ### One-time GitHub setup
-1. Push this repo to `https://github.com/amir-daniel/SProtocols`.
+1. Push this repo to `https://github.com/amir-daniel/sailing-protocols`.
 2. In the repo: **Settings → Pages → Build and deployment → Source = "GitHub Actions"**.
 3. Push to `main` — the workflow (`.github/workflows/deploy.yml`)
    builds and publishes the site.

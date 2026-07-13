@@ -1,9 +1,9 @@
 site_name: SProtocols — Sailing Checklists
 site_description: A structured library of sailing checklists and protocols.
 site_author: amir-daniel
-site_url: https://amir-daniel.github.io/SProtocols/
-repo_url: https://github.com/amir-daniel/SProtocols
-repo_name: amir-daniel/SProtocols
+site_url: https://amir-daniel.github.io/sailing-protocols/
+repo_url: https://github.com/amir-daniel/sailing-protocols
+repo_name: amir-daniel/sailing-protocols
 
 # Keep the Markdown files exactly where they are (repo root) and use README.md
 # as the home page. Provided by the mkdocs-same-dir plugin.
@@ -66,7 +66,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/amir-daniel/SProtocols
+      link: https://github.com/amir-daniel/sailing-protocols
 
 # Clean section names mapped from the numbered folders.
 nav:

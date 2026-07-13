@@ -13,7 +13,7 @@ from pathlib import Path
 import qrcode
 import qrcode.image.svg
 
-BASE_URL = "https://amir-daniel.github.io/SProtocols/"
+BASE_URL = "https://amir-daniel.github.io/sailing-protocols/"
 
 TARGETS = {
     "site-home": BASE_URL,
