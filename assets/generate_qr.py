@@ -1,4 +1,4 @@
-"""Generate QR codes pointing at the published SProtocols site.
+"""Generate QR codes pointing at the published Sailing Protocols site.
 
 Run:  python assets/generate_qr.py
 

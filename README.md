@@ -1,4 +1,4 @@
-# SProtocols — Sailing Checklists & Protocols
+# Sailing Protocols — Sailing Checklists & Protocols
 
 A structured, iteratively-built library of sailing checklists and protocols,
 inspired by the philosophy in Atul Gawande's *The Checklist Manifesto*.
@@ -125,6 +125,10 @@ Each file marks its intended style near the top.
 This repo publishes automatically to a searchable, phone-friendly site:
 
 **https://amir-daniel.github.io/sailing-protocols/**
+
+Scan to open it on your phone:
+
+![Scan for the site](assets/qr/site-home.png)
 
 - Built with **MkDocs + Material** from these Markdown files (no reformatting).
 - Instant search, light/dark mode, tappable checkboxes, offline support.
